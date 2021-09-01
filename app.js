@@ -44,6 +44,7 @@ const getBookData = (inputValue) => {
                     <div class="card-body border-primary">
                         <h4 class="card-title text-primary">${book.title}</h4>
                         <p>Author: <span class="fw-bold text-dark">${book.author_name ? book.author_name : `----------`}</span></p>
+                        <p>Publisher: <span class="fw-bold text-dark">${book.publisher ? book.publisher : `----------`}</span></p>
                         <p>Published Year: <span class="fw-bold text-dark">${book.first_publish_year ? book.first_publish_year : `----------`}</span></p>
                     </div>
                     <div class="card-footer">
